@@ -1,0 +1,39 @@
+{
+  "name": "is-host-up",
+  "description": "Determine if a host is up",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ramin Taghizada",
+    "email": "ramintagizade@mail.ru",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/ramintagizade/is-host/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "http",
+    "host",
+    "internet",
+    "node"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramintagizade/is-host.git"
+  },
+  "scripts": {
+    "test": "npm run test-node",
+    "test-node": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js"
+  }
+}
